@@ -26,9 +26,9 @@
   </div>
 </header>
     <main>
+      <div "class="main-content"">
       <h3 class="portfolio">PORTFOLIO</h3>
           <img src="images/portfolio-1.png" alt="Picture of portfolio">
-            <h2>Marketing Page</h2>
 <p>This project shows the front page of a marketing website meant for specific business I am interested in.</p>
 <img src="images/portfolio-2.png" alt="marketing page">
 <h2>Search Page</h2>
@@ -47,13 +47,22 @@
 <p>Someone can enter the numbers they want, and press the big blue button and get the result.
 </main>
 </div>
+</div>
+
                           <footer class="bottom">
+
 <h3>Contact</h3>
 <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-Phone +1 (626)422-1659
-Elijah Quesada
-<a href="#top">BACK TO TOP</a>
-    </footer>
+<div class="contact">
+<p>Phone +1 (626)422-1659</p>
+<p>elijahmquesada@gmail.com</p>
 </div>
+<div class="border"></div>
+<div class="nametop">
+<p>Elijah Quesada<a href="#top">BACK TO TOP</a></p>
+</div>
+</div>
+    </footer>
+
   </body>
 </html>

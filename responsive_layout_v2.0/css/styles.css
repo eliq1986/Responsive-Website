@@ -1,15 +1,98 @@
+/*=====selectors*/
+* {
+ box-sizing: border-box;
+}
+
+
+h1 {
+margin-top: 4px;
+
+}
 
 body {
  font-family: 'Questrial', sans-serif;
  width: 100%;
- padding: 0 5px;
+ background-color: #F2F2F2;
+ text-align: center;
+ /*margin:;removed;trying to give footer full width*/
+ padding: 20px;
+
 
 }
-
 nav li {
  list-style: none;
- display: block;
 
+
+}
+
+li {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #F2F2F2;
+  text-transform: uppercase;
+  margin: 4px 0;
+
+}
+
+ul {
+padding: 0; /* centers nav bar*/
+
+}
+
+footer {
+ text-align: center;
+ background-color: E8E8E8;
+ padding: 10px;
+ margin-bottom: -20px;
+
+}
+
+img {
+max-width: 100%;
+padding: 2px;
+}
+
+p {
+ padding: 5px;
+ line-height: 1.2em;
+ font-size: 1.1em;
+ background-color: ;
+}
+
+h2{
+background-color: red;
+padding: 4px;
+
+}
+
+h3 {
+  margin-top: 10px;
+
+ }
+/*=====classes===*/
+.portfolio {
+padding: 10px;
+/*background-color: pink;*/
+
+}
+.paragraph1 {
+padding: 15px;
+
+}
+
+
+.bottom {
+ width: inherit;
+ height: 350px;
+}
+
+
+
+/*======Layouts======*/
+.container {
+ width: 100%;
+ display: block;
+ margin-bottom: 10px;
 }
 
 
@@ -21,6 +104,27 @@ nav li {
 
 
 
+/*---Pseudo classes----*/
+
+a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+
+}
+
+a:active {
+
+
+}
 
 
 
@@ -28,13 +132,12 @@ nav li {
 
 /*--------Media Queries------*/
 
-@media (min-width: 769px ){
+@media (min-width: 769px) {
 
+ .container {
+ width: 70%;
 
-
-
-
-
+ }
 
 
 

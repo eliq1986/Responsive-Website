@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Responsive Layout</title>
+  </head>
+  <body>
+      <header>
+        <nav>
+  <h1>Elijah Quesada</h1>
+                          <ul>
+                              <li>Home</li>
+                                  <li>Portfolio</li>
+                                            <li>Contact</li>
+                                    </ul>
+                                  </nav>
+<img src="images/responsive-layout-profile.png" alt="profile of me">
+<p>Hi! I am a front-end Developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use.</p>
+</header>
+<main>
+<h3>Portfolio</h3>
+<img src="images/portfolio-1.png" alt="Picture of portfolio">
+<h2>Marketing Page</h2>
+<p>This project shows the front page of a marketing website meant for specific business I am interested in.</p>
+<img src="images/portfolio-2.png" alt="marketing page">
+<h2>Search Page</h2>
+<p>This project searches through a specific datebase to find information that the user is trying to look up.</p>
+<img src="images/portfolio-3.png" alt="search page">
+<h2>Travel App</h2>
+<p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+<img src="images/portfolio-4.png" alt="travel app">
+<h2>Map of Favorite Spots</h2>
+<p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+<img src="images/portfolio-5.png" alt="mapping app">
+<h2>Photo Gallery</h2>
+<p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+<img src="images/portfolio-6.png" alt="photo gallery">
+<h2>Calculator</h2>
+<p>Someone can enter the numbers they want, and press the big blue button and get the result.
+</main>
+                          <footer>
+<h3>Contact</h3>
+<p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+Phone +1 (626)422-1659
+Elijah Quesada
+BACK TO TOP
+    </footer>
+  </body>
+</html>

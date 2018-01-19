@@ -10,28 +10,30 @@
   </head>
   <body>
     <div class="container">
-      <header>
-
-            <h1 id="top">ELIJAH QUESADA</h1>
+        <header>
+                <h1 id="top">ELIJAH QUESADA</h1>
                     <nav>
                          <ul class="nav">
                               <li><a href="#">Home</a></li>
                                   <li><a href="#">Portfolio</a></li>
                                             <li><a href="#">Contact</a></li>
                          </ul>
-                       </nav>
+                   </nav>
+      <div class="flex">
+          <img src="images/responsive-layout-profile.png" alt="profile of me" class="pic">
 
-                  <img src="images/responsive-layout-profile.png" alt="profile of me">
-<p class="paragraph1">Hi! I am a front-end Developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use.</p>
+      <div class="paragraph1">
+                  <p>Hi! I am a front-end Developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use.</p>
+</div></div>
   </div>
 </header>
     <main>
-      <div "class="main-content"">
-      <h3 class="portfolio">PORTFOLIO</h3>
-          <img src="images/portfolio-1.png" alt="Picture of portfolio">
-<p>This project shows the front page of a marketing website meant for specific business I am interested in.</p>
-<img src="images/portfolio-2.png" alt="marketing page">
-<h2>Search Page</h2>
+      <div class="main-content">
+            <h3 class="portfolio">PORTFOLIO</h3>
+                    <img src="images/portfolio-1.png" alt="Picture of portfolio">
+                          <p>This project shows the front page of a marketing website meant for specific business I am interested in.</p>
+                                    <img src="images/portfolio-2.png" alt="marketing page">
+                                              <h2>Search Page</h2>
 <p>This project searches through a specific datebase to find information that the user is trying to look up.</p>
 <img src="images/portfolio-3.png" alt="search page">
 <h2>Travel App</h2>

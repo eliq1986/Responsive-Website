@@ -11,13 +11,16 @@ font-size: 1.6em;
 }
 
 body {
- font-family: 'Questrial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
  width: 100%;
  background-color: #F2F2F2;
  text-align: center;
  /*margin:;removed;trying to give footer full width*/
  padding:; /*==removed due to padding for whole layout*/
+margin: 0 auto;
 }
+
+
 
  main {
  padding: 20px;
@@ -72,8 +75,8 @@ p {
  padding: 10px;
  line-height: 1.5em;
  font-size: 1.0em;
- background-color: ;
- margin: 20px 0;
+   margin: 20px 0;
+
 }
 
 h2{
@@ -84,7 +87,7 @@ padding: 4px;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.em;
   margin-bottom: 40px;
   margin-top: 20px;
   padding-top: 50px;
@@ -122,7 +125,7 @@ div.footer p {
 div.contact p {
 
 margin-top: 5px;
-margin-bottom: 30px;
+margin-bottom: 15px;
 padding: 5px;
 
 }
@@ -143,20 +146,16 @@ div.border {
 
 }
 
-div.nametop a {
-padding: 10px 10px;
-margin-left: 50px;
-text-align: right;
-
+.flexfooter{
+  display: flex;
+  padding: 10px;
 }
 
-div.nametop {
- padding: 20px;
-
+.flexfooter p {
+padding: 10px 0;
+margin: auto;
+font-weight: bolder;
 }
-
-
-
 
 
 /*======Layouts======*/
@@ -221,13 +220,18 @@ a:active {
     clear: both;
   }
 
+ p {
+  line-height: 1.3em;
+
+ }
+
 h1#top {
 padding: 10px;
 
 }
 
 div.container {
-margin-bottom: 80px;
+margin-bottom: 50px;
 
 }
 
@@ -255,15 +259,60 @@ display: flex;
 flex-direction: row-reverse;
 }
 
-.paragraph1{
-width: 50%;
+.paragraph1 p{
 text-align: left;
-margin-right: 100px;
-margin-left: 50px;
+margin-right: 5px;
+margin-top: 0;
+font-size: 1.2em;
 
 }
+
 .pic {
   width: 300px;
+  height: 200px;
+}
+/*====end of header====*/
+
+h3{
+  font-size: 1.1em;
+
+
+}
+img {
+ width: 350px;
+ height: 200px;
+ max-width: none;
+
+
+}
+
+
+ div.sidebyside{
+  display: flex;
+  margin: 0 10px;
+
+
+
+ }
+ /*====end of main====*/
+
+footer {
+min-height: 400px;
+
+}
+
+ .footerp {
+   font-size: 1.2em;
+   text-align: center;
+   margin: 0 100px;
+
+ }
+
+div.contact p {
+margin-bottom: 20px;
+
+
+
 }
 
 

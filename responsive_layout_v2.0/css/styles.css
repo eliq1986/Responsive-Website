@@ -11,16 +11,18 @@ font-size: 1.6em;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
  width: 100%;
  background-color: #F2F2F2;
  text-align: center;
  /*margin:;removed;trying to give footer full width*/
- padding:; /*==removed due to padding for whole layout*/
+ /*==padding:; removed due to padding for whole layout*/
 margin: 0 auto;
 }
 
-
+span {
+  font-weight: 900;
+}
 
  main {
  padding: 20px;
@@ -81,13 +83,12 @@ p {
 
 h2{
   font-size: 1.2em;
-background-color:;
-padding: 4px;
+   padding: 4px;
 
 }
 
 h3 {
-  font-size: 1.em;
+  font-size: 1em;
   margin-bottom: 40px;
   margin-top: 20px;
   padding-top: 50px;
@@ -96,9 +97,10 @@ h3 {
 .portfolio {
 padding: 10px;
 margin-bottom: 70px;
+}
 /*background-color: pink;*/
 
-}
+
 .paragraph1 {
   font-size: 1.0em;
 
@@ -163,6 +165,8 @@ display: none;
 }
 
 
+
+
 /*======Layouts======*/
 .container {
  width: 100%;
@@ -215,6 +219,7 @@ a:active {
 
 
 
+
 /*--------Media Queries------*/
 
 @media (min-width: 768px) {
@@ -226,17 +231,30 @@ a:active {
   }
   main {
     width: 100%;
+    padding: 0;
   }
 
 
 
- p {
+ div.pages p {
   line-height: 1.3em;
-
+  margin: 0 auto;
+  padding: 5px 0px 20px 0px;
+  font-size: .75em;
+   width: 200px;
  }
 
 h1#top {
 padding: 10px;
+
+}
+
+h2 {
+  padding: 0;
+  margin-top: 10px;
+}
+h3.portfolio {
+  padding: 50px;
 
 }
 
@@ -268,11 +286,16 @@ div.container.group {
 .flex{
 display: flex;
 flex-direction: row-reverse;
-flex-wrap: nowrap;
-
-
+flex-grow: 1;
 
 }
+div.pages {
+max-width: 100%;
+flex-grow: 1;
+margin: 0 18.6px;
+
+}
+
 
 .paragraph1 p{
 text-align: left;
@@ -294,12 +317,10 @@ h3{
 
 }
 img {
- width: 350px;
- height: 200px;
- max-width: inherit;
+  width: 300px;
+  height: 170px;
+ max-width: 100%;
  margin: 0 2px;
-
-
 }
 
 
@@ -308,13 +329,22 @@ img {
  div.sidebyside{
   display: flex;
   width: 100%;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+
+span{
+  font-weight: bold;
+}
+div.pages p {
+  font-size: .9em;
+  margin-bottom: 10px;
+}
 
 
 
 
-
- }
  /*====end of main====*/
 
 footer {
@@ -369,25 +399,75 @@ padding-right: 20px;
 
 
 
+}
 
 
+@media (min-width: 1024px) {
 
+body {
+ margin: auto;
 
+}
+main {
+  padding-bottom: 50px;
+}
 
+ h1 {
+   width: 30%;
+   margin: 0;
+   float: left;
+}
 
+h2 {
+ margin-top: 10px;
+}
 
-
-
-
-
-
-
-
+nav {
+  display: inline-block;
+  margin-left: 200px;
 
 
 }
 
+ ul.nav {
+ padding: 0;
+ margin-left: 50px;
 
-@media query {
+
+ }
+
+
+li {
+flex-direction: row-reverse;
+
+}
+
+
+
+.pic {
+  margin-top: 50px;
+  margin-right: 70px;
+  width: 400px;
+
+
+
+}
+.paragraph1 {
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+
+img {
+ width: 300px;
+ height: 200px;
+}
+
+div.pages p {
+  font-size: .9em;
+  padding-top: 5px;
+  margin-top: 10px;
+
+}
 
 }

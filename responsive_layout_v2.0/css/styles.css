@@ -410,6 +410,8 @@ body {
 }
 main {
   padding-bottom: 50px;
+  max-width: 1024px;
+  margin: auto;
 }
 
  h1 {

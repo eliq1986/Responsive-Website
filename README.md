@@ -1,1 +1,3 @@
-# Treehouse-Project-2
+# Responsive Layout
+
+#### Responsive Layout built utilizing media queries.

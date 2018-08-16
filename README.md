@@ -1,4 +1,4 @@
-# Responsive Layout utilizing media queries.
+# Responsive layout utilizing media queries.
 
 [DEMO](https://eliq1986.github.io/Responsive-Website/)
 

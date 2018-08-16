@@ -1,6 +1,6 @@
 # Reponsive Layout utilizing media queries.
 
-[DEMO](https://eliq1986.github.io/Treehouse-Project-2/)
+[DEMO](https://eliq1986.github.io/Responsive-Website/)
 
 ### Skills Learned:
 - HTML5
